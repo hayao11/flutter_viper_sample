@@ -1,16 +1,8 @@
-# flutter_viper
 
-A new Flutter project.
+A sample implementation of **VIPER**, a variant of **Clean Architecture** often used in iOS, written in **Flutter**.  
 
-## Getting Started
+It uses **Riverpod** and is decoupled via interfaces.
 
-This project is a starting point for a Flutter application.
+To make the structure easier to understand, it's based on the default counter app generated at project creation.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+At this stage, **Router** is not used.
