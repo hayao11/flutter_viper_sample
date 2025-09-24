@@ -17,7 +17,7 @@ final counterInteractorOutputProvider = AutoDisposeProvider<CounterValue>((
 
 @riverpod
 final class _CounterInteractor extends _$CounterInteractor
-    implements CounterInteractorInput, CounterInteractorOutput {
+    implements CounterInteractorInput {
   @override
   CounterValue build() {
     return const CounterValue(0);
@@ -27,7 +27,4 @@ final class _CounterInteractor extends _$CounterInteractor
   void updateCount() {
     state = CounterValue(state.value + 1);
   }
-
-  @override
-  CounterValue get counterValue => state;
 }
